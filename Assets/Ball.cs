@@ -4,11 +4,23 @@ using System.Collections;
 public class Ball : MonoBehaviour {
 
 	// speed to be modified in the Inspector
-	public float speed = 12.0f;
+	public float speed = 2.0f;
+
+	public static Vector2 ballStartPos = new Vector2(0,0);
+
+	public static int playerLeftScore;
+	public static int playerRightScore;
+
+	void OnGUI() {
+        GUI.Label(new Rect(150, 40, 100, 20), playerLeftScore.ToString());
+				GUI.Label(new Rect(400, 40, 100, 20), playerRightScore.ToString());
+    }
 
 	void Start () {
+
 	// give the ball some initial movement direction
 	rigidbody2D.velocity = Vector2.one.normalized * speed;
+
 	}
 
 	float hitFactor(Vector2 ballPos, Vector2 racketPos,
@@ -62,6 +74,34 @@ public class Ball : MonoBehaviour {
         // Set Velocity with dir * speed
         rigidbody2D.velocity = dir * speed;
     }
+
+		// Hit the RIGHT back wall?
+	    if (col.gameObject.name == "WallRight") {
+
+				// play a sound
+				col.gameObject.GetComponent<AudioSource>().Play();
+
+				// reset ball to centre
+				transform.position=ballStartPos;
+
+				playerLeftScore = playerLeftScore + 1;
+				Debug.Log(playerLeftScore);
+
+	    }
+
+			// Hit the LEFT back wall?
+		    if (col.gameObject.name == "WallLeft") {
+
+				// play a sound
+				col.gameObject.GetComponent<AudioSource>().Play();
+
+				// reset ball to centre
+				transform.position=ballStartPos;
+
+				playerRightScore = playerRightScore + 1;
+				Debug.Log (playerRightScore);
+
+				}
 
 	}
 

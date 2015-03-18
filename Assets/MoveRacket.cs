@@ -16,7 +16,7 @@ public class MoveRacket : MonoBehaviour {
 		if(Input.GetKey(down)){
 			transform.Translate(new Vector2(0.0f, -0.1f));
 		}
-
+		
 	}
 
 
