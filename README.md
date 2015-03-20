@@ -4,7 +4,7 @@ Implementation of Pong in Unity3D based off this tutorial: http://noobtuts.com/u
 
 To play: Press "A" and "D" for player 1 (left/right), and "Left arrow" and "Right arrow" for player 2.
 
-Added sound effects, nicer background, trail effect on ball, and fixed a bug where the ball would "stick" to the bottom/top walls.
+Added sound effects, starry background, new 'isometric' style perspective, trail effect on ball, and fixed a bug where the ball would "stick" to the walls (and 'run' along the wall in a straight line).
 
 The next step will be to implement a computer AI versus the player. This is going to be implemented using artificial neural networks.
 
