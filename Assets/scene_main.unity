@@ -288,8 +288,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94b50efb90e464eec8e0df7b004509b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  up: 273
-  down: 274
+  left: 276
+  right: 275
 --- !u!50 &498647793
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -551,8 +551,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94b50efb90e464eec8e0df7b004509b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  up: 119
-  down: 115
+  left: 97
+  right: 100
 --- !u!50 &955404479
 Rigidbody2D:
   m_ObjectHideFlags: 0
