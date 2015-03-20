@@ -2,7 +2,7 @@
 
 Implementation of Pong in Unity3D based off this tutorial: http://noobtuts.com/unity/2d-pong-game
 
-To play: Press "W" and "S" for player 1 (up/down), or "Up arrow" and "Down arrow" for player 2.
+To play: Press "A" and "D" for player 1 (left/right), and "Left arrow" and "Right arrow" for player 2.
 
 Added sound effects, nicer background, trail effect on ball, and fixed a bug where the ball would "stick" to the bottom/top walls.
 
