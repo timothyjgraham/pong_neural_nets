@@ -12,8 +12,8 @@ public class Ball : MonoBehaviour {
 	public static int playerRightScore;
 
 	void OnGUI() {
-        GUI.Label(new Rect(150, 40, 100, 20), playerLeftScore.ToString());
-				GUI.Label(new Rect(400, 40, 100, 20), playerRightScore.ToString());
+        GUI.Label(new Rect(150, 40, 100, 20), playerRightScore.ToString());
+				GUI.Label(new Rect(460, 270, 100, 20), playerLeftScore.ToString());
     }
 
 	void Start () {
