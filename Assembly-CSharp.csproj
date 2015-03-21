@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{382BA7DD-1195-F643-C72B-0922BC60AF74}</ProjectGuid>
+	<ProjectGuid>{DDB5A2C2-5B56-9D95-E962-FBF1C6122ADD}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -47,7 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Ball.cs" />
-     <Compile Include="Assets\MoveRacket.cs" />
+     <Compile Include="Assets\Player.cs" />
+     <Compile Include="Assets\PlayerBorder.cs" />
+     <Compile Include="Assets\ScoreUI.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -11,7 +11,7 @@ PlayerSettings:
   targetResolution: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Pong_neural_nets_AI
+  productName: 3D_Pong_neural_nets
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
@@ -70,7 +70,7 @@ PlayerSettings:
   iPhoneBundleIdentifier: com.Company.ProductName
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
-  productGUID: 2b9e23397761840d5b6b3e5fd58adbc1
+  productGUID: 0173925f9258c404c8145635973cb7f7
   iPhoneBundleVersion: 1.0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 9
@@ -152,7 +152,7 @@ PlayerSettings:
   flashStrippingLevel: 2
   spritePackerPolicy: 
   scriptingDefineSymbols: {}
-  metroPackageName: Pong_neural_nets_AI
+  metroPackageName: 3D_Pong_neural_nets
   metroPackageLogo: 
   metroPackageLogo140: 
   metroPackageLogo180: 
@@ -163,7 +163,7 @@ PlayerSettings:
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Pong_neural_nets_AI
+  metroApplicationDescription: 3D_Pong_neural_nets
   metroStoreTileLogo80: 
   metroStoreTileLogo: 
   metroStoreTileLogo140: 

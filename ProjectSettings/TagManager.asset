@@ -41,7 +41,3 @@ TagManager:
     userID: 0
     uniqueID: 0
     locked: 0
-  - name: AllGameObjectsAndBackground
-    userID: 1
-    uniqueID: 3519542759
-    locked: 0
